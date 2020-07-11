@@ -1,0 +1,104 @@
+header{
+	display:block;
+	margin: 0 auto;
+	width:100%;
+	text-align:center;
+}
+
+header h1{
+	font-family:Arial;
+	font-size:40px;
+	font-weight:bold;
+	
+}
+
+a#newgamebutton{
+	display:block;
+	margin:20px auto;
+	
+	width:100px;
+	padding:10px 10px;
+	background-color:mediumaquamarine;
+	font-family:Arial;
+	color:white;
+	border-radius:10px;
+	text-decoration:none;
+	font-size:30px;
+}
+
+a#newgamebutton:hover{
+	background-color:aquamarine;
+}
+
+
+.towerStack{
+	background:green;
+	width:480px;
+	height:480px;
+	
+	position:relative;
+	margin:0 auto;
+	border-radius:12px;
+}
+
+.towerStack > div{
+	position:absolute;
+}
+
+.gameComplete{
+	position:absolute;
+	left:100px;
+	display:none;
+}
+
+.piston{
+	background:brown;
+	width:35px;
+	height:300px;
+	position:absolute;
+	bottom:10px;
+	border-radius:6px;
+}
+
+.pistonOne{
+	left:100px;
+}
+
+.pistonTwo{
+	left:230px;
+}
+
+.pistonThree{
+	left:350px;
+	
+}
+
+
+.pistonBase{
+	background:brown;
+	width:450px;
+	height:20px;
+	bottom:0px;
+	position:absolute;
+	left:15px;
+	border-radius:6px;
+	
+}
+
+.cylinder{
+	background:blue;
+	height:20px;
+	position:absolute;
+	
+	/*width:100px;*/
+}
+
+.stackTop:hover{
+	background:dodgerblue;
+	cursor:pointer;
+}
+
+select{
+	width:60px;
+	border-radius:6px;
+}

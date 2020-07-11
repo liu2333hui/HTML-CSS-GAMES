@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Hanoi Towers</title>
+		
+		
+		<link rel="stylesheet" type="text/css" href="css/hanoi.css" />
+		<script type="text/javascript" src="js-hanoi/jquery-1.11.0.js"></script>
+		<script src="js-hanoi/main.js" ></script>
+		<script src="js-hanoi/animation.js"></script>
+		<script src="js-hanoi/support.js"></script>
+		
+	</head>
+	<body>
+		
+		<a href="index.html">&lsaquo;Go back to main page</a>
+		
+		<header>
+			<h1>Hanoi Towers</h1>
+			<a href="javascript:newgame()" id="newgamebutton">New Game</a>
+			
+			<p>Moves: <span id="score">0</span></p>
+			
+			Number Of Cylinders  <select name="cylinSelect" id="cylinSelect">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option aluve="3">3</option>
+				<option selected="selected"  value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+			</select>
+			<br />
+			<br />
+		</header>
+		
+		<div ><h2 class="gameComplete">Game Complete!</h2></div>
+		<div class="towerStack">
+			
+			<div class="pistonOne piston "></div>
+			<div class="pistonTwo piston"></div>
+			<div class="pistonThree piston"></div>
+			<div class="pistonBase"></div>
+		</div>
+
+	</body>
+</html>
